@@ -37,7 +37,7 @@
     components: { SystemInformation },
     methods: {
       open(link) {
-        var teste = link;
+        alert(link);
         // require('electron').shell.openExternal(link);
       },
     },
