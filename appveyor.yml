@@ -1,4 +1,4 @@
-version: 0.1.{build}
+version: {build}
 
 branches:
   only:
@@ -27,3 +27,8 @@ build_script:
   - yarn build
 
 test: off
+
+os: unstable
+environment:
+  GH_TOKEN:
+      secure: uM7F+WdnADXuBFmqZmkGNrFab7rRPeQGfsmEjIUNL1p2T+NRrHaHL0/cmsGureed
