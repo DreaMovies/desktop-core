@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/DreaMovies/desktop-core.svg?branch=master)](https://travis-ci.com/DreaMovies/desktop-core)
+[![Build status](https://ci.appveyor.com/api/projects/status/unlvoo28h4r6gmkq/branch/master?svg=true)](https://ci.appveyor.com/project/SrPatinhas/desktop-core/branch/master)
 
 # dreamovies-app
 

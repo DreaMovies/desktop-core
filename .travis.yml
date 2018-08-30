@@ -31,6 +31,12 @@ install:
 - yarn
 script:
 - yarn run build
+deploy:
+  provider: releases
+  github_token: $GH_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true
 branches:
   only:
   - master
