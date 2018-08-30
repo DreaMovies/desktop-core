@@ -47,5 +47,5 @@ deploy:
     - "./build/*.zip"
     - "./build/latest-mac.json"
   on:
-    repo: hirenchauhan2/pw-chat
+    repo: DreaMovies/desktop-core
     tags: true

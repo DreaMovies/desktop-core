@@ -35,7 +35,7 @@ test: off
 deploy:
   provider: GitHub
   release: v$(appveyor_repo_tag_name)
-  description: 'Pw Chat app release.'
+  description: 'Dreamovies App Release'
   auth_token:
     secure: uM7F+WdnADXuBFmqZmkGNrFab7rRPeQGfsmEjIUNL1p2T+NRrHaHL0/cmsGureed # your encrypted token from GitHub
   artifact: App            # upload setup.exe to release assets
