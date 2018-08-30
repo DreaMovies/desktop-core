@@ -17,12 +17,12 @@
             internal configurations, using the project structure, building your application,
             and so much more.
           </p>
-          <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button><br><br>
+          <!-- <button @click="open('https://simulatedgreg.gitbooks.io/electron-vue/content/')">Read the Docs</button><br><br> -->
         </div>
         <div class="doc">
           <div class="title alt">Other Documentation</div>
-          <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
-          <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button>
+          <!-- <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
+          <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button> -->
         </div>
       </div>
     </main>
@@ -34,17 +34,12 @@
 
   export default {
     name: 'landing-page',
-    data:{
-      return function(){
-          link: "",
-      },
-    },
     components: { SystemInformation },
     methods: {
-      open(link) {
-        this.link = link;
+      //open(link) {
+        //this.link = link;
         // require('electron').shell.openExternal(link);
-      },
+      //},
     },
   };
 </script>
