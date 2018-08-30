@@ -34,10 +34,15 @@
 
   export default {
     name: 'landing-page',
+    data:{
+      return function(){
+          link: "",
+      },
+    },
     components: { SystemInformation },
     methods: {
       open(link) {
-        alert(link);
+        this.link = link;
         // require('electron').shell.openExternal(link);
       },
     },
