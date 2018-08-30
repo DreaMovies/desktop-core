@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/DreaMovies/desktop-core.svg?branch=master)](https://travis-ci.com/DreaMovies/desktop-core)
+
 # dreamovies-app
 
 > Local and Web sources media player
