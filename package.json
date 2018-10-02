@@ -48,7 +48,7 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon_1.ico"
+      "icon": "build/icons/icon_2.ico"
     },
     "linux": {
       "icon": "build/icons",
