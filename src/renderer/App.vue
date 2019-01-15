@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <landing-page></landing-page>
+    <LocalMedia></LocalMedia>
   </div>
 </template>
 
 <script>
-  import LandingPage from '@/components/LandingPage';
+  import LocalMedia from '@/components/LocalMedia';
 
   export default {
     name: 'dreamovies-app',
     components: {
-      LandingPage,
+      LocalMedia,
     },
   };
 </script>
