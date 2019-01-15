@@ -11,10 +11,10 @@
     name: 'landing-page',
     components: { SystemInformation },
     methods: {
-      //open(link) {
-        //this.link = link;
-        // require('electron').shell.openExternal(link);
-      //},
+      // open(link) {
+      // this.link = link;
+      // require('electron').shell.openExternal(link);
+      // },
     },
   };
 </script>

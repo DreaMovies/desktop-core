@@ -1,5 +1,4 @@
 <template>
-<template>
   <div id="wrapper">
     <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
     <main>
@@ -37,10 +36,10 @@
     name: 'landing-page',
     components: { SystemInformation },
     methods: {
-      //open(link) {
-        //this.link = link;
-        // require('electron').shell.openExternal(link);
-      //},
+      // open(link) {
+      // this.link = link;
+      // require('electron').shell.openExternal(link);
+      // },
     },
   };
 </script>

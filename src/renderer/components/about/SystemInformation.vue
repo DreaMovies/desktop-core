@@ -40,10 +40,10 @@
         platform: require('os').platform(),
         vue: require('vue/package.json').version,
         app_version: require('os').platform(),
-        app_update: false
+        app_update: false,
       };
     },
-    created(){
+    created() {
       this.app_update = true;
     },
   };
